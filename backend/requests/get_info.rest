@@ -1,0 +1,18 @@
+GET http://localhost:5000/api/info/2
+
+###
+
+DELETE  http://localhost:5000/api/persons/674172198f26deb0d41fe812
+
+###
+
+GET http://localhost:5000/api/persons
+
+###
+POST http://localhost:5000/api/persons/ HTTP/1.1
+content-type: application/json
+
+{
+    "name": "nk",
+    "phone": "78632"
+}
